@@ -1,0 +1,1428 @@
+23-Feb-2025 07:56:44.679 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.89
+23-Feb-2025 07:56:44.686 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 3 2024 20:22:11 UTC
+23-Feb-2025 07:56:44.686 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.89.0
+23-Feb-2025 07:56:44.686 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+23-Feb-2025 07:56:44.686 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+23-Feb-2025 07:56:44.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+23-Feb-2025 07:56:44.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-23
+23-Feb-2025 07:56:44.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           23.0.1+11-39
+23-Feb-2025 07:56:44.689 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+23-Feb-2025 07:56:44.689 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89
+23-Feb-2025 07:56:44.689 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89
+23-Feb-2025 07:56:44.704 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+23-Feb-2025 07:56:44.704 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+23-Feb-2025 07:56:44.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+23-Feb-2025 07:56:44.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+23-Feb-2025 07:56:44.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+23-Feb-2025 07:56:44.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\conf\logging.properties
+23-Feb-2025 07:56:44.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-Feb-2025 07:56:44.706 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+23-Feb-2025 07:56:44.706 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+23-Feb-2025 07:56:44.706 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+23-Feb-2025 07:56:44.707 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89
+23-Feb-2025 07:56:44.707 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89
+23-Feb-2025 07:56:44.707 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\temp
+23-Feb-2025 07:56:44.727 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-23\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk-23\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Java\jdk-13\bin;C:\Program Files\Java\jdk-23\bin;C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-ant-1.10.15-bin (2)\apache-ant-1.10.15\bin;C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-ant-1.10.15-bin (2)\apache-ant-1.10.15\bin;C:\Program Files\Java\jdk-23\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-23\bin;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Java\jdk-13\bin;C:\Program Files\Java\jdk-23\bin;C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-ant-1.10.15-bin (2)\apache-ant-1.10.15\bin;C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-ant-1.10.15-bin (2)\apache-ant-1.10.15\bin;C:\Program Files\Java\jdk-23\bin;C:\Users\roshi\AppData\Local\Microsoft\WindowsApps;C:\Users\roshi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\roshi\AppData\Roaming\npm;C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-ant-1.10.15-bin (2)\apache-ant-1.10.15\bin;C:\apache-ant-1.10.15\bin;;C:\apache-ant\bin;.]
+23-Feb-2025 07:56:45.322 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+23-Feb-2025 07:56:45.366 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1013] milliseconds
+23-Feb-2025 07:56:45.442 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+23-Feb-2025 07:56:45.442 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.89]
+23-Feb-2025 07:56:45.485 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\HospitalManagementSystem.war]
+23-Feb-2025 07:56:46.093 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Feb-2025 07:56:46.186 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\HospitalManagementSystem.war] has finished in [701] ms
+23-Feb-2025 07:56:46.188 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\docs]
+23-Feb-2025 07:56:46.256 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\docs] has finished in [68] ms
+23-Feb-2025 07:56:46.257 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\examples]
+23-Feb-2025 07:56:47.125 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\examples] has finished in [869] ms
+23-Feb-2025 07:56:47.126 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\host-manager]
+23-Feb-2025 07:56:47.193 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\host-manager] has finished in [66] ms
+23-Feb-2025 07:56:47.193 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\manager]
+23-Feb-2025 07:56:47.261 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\manager] has finished in [68] ms
+23-Feb-2025 07:56:47.261 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\ROOT]
+23-Feb-2025 07:56:47.309 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\ROOT] has finished in [48] ms
+23-Feb-2025 07:56:47.316 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+23-Feb-2025 07:56:47.357 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1989] milliseconds
+23-Feb-2025 08:06:59.295 INFO [http-nio-8080-exec-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/HospitalManagementSystem]
+23-Feb-2025 08:06:59.343 INFO [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\conf\Catalina\localhost\HospitalManagementSystem.xml]
+23-Feb-2025 08:06:59.346 WARNING [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/HospitalManagementSystem] in deployment descriptor [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\conf\Catalina\localhost\HospitalManagementSystem.xml] has been ignored
+23-Feb-2025 08:06:59.498 INFO [http-nio-8080-exec-3] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Feb-2025 08:06:59.504 INFO [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\conf\Catalina\localhost\HospitalManagementSystem.xml] has finished in [160] ms
+23-Feb-2025 08:06:59.511 INFO [http-nio-8080-exec-8] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/HospitalManagementSystem]] after start() had already been called. The second call will be ignored.
+23-Feb-2025 08:19:45.093 INFO [http-nio-8080-exec-11] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/HospitalManagementSystem] has started
+23-Feb-2025 08:19:45.238 INFO [http-nio-8080-exec-11] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Feb-2025 08:19:45.249 INFO [http-nio-8080-exec-11] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/HospitalManagementSystem] is completed
+23-Feb-2025 08:29:46.485 INFO [http-nio-8080-exec-21] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/HospitalManagementSystem] has started
+23-Feb-2025 08:29:46.602 INFO [http-nio-8080-exec-21] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Feb-2025 08:29:46.609 INFO [http-nio-8080-exec-21] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/HospitalManagementSystem] is completed
+23-Feb-2025 08:38:04.186 INFO [http-nio-8080-exec-32] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/HospitalManagementSystem] has started
+23-Feb-2025 08:38:04.322 INFO [http-nio-8080-exec-32] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Feb-2025 08:38:04.328 INFO [http-nio-8080-exec-32] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/HospitalManagementSystem] is completed
+23-Feb-2025 08:53:21.137 INFO [http-nio-8080-exec-49] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/HospitalManagementSystem] has started
+23-Feb-2025 08:53:21.263 INFO [http-nio-8080-exec-49] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Feb-2025 08:53:21.269 INFO [http-nio-8080-exec-49] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/HospitalManagementSystem] is completed
+23-Feb-2025 09:49:33.702 INFO [http-nio-8080-exec-51] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/HospitalManagementSystem] has started
+23-Feb-2025 09:49:33.834 INFO [http-nio-8080-exec-51] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Feb-2025 09:49:33.839 INFO [http-nio-8080-exec-51] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/HospitalManagementSystem] is completed
+23-Feb-2025 09:49:36.103 INFO [http-nio-8080-exec-53] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/HospitalManagementSystem] has started
+23-Feb-2025 09:49:36.242 INFO [http-nio-8080-exec-53] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Feb-2025 09:49:36.246 INFO [http-nio-8080-exec-53] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/HospitalManagementSystem] is completed
+23-Feb-2025 09:54:42.425 INFO [http-nio-8080-exec-65] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/HospitalManagementSystem] has started
+23-Feb-2025 09:54:42.566 INFO [http-nio-8080-exec-65] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Feb-2025 09:54:42.570 INFO [http-nio-8080-exec-65] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/HospitalManagementSystem] is completed
+23-Feb-2025 09:54:43.089 INFO [http-nio-8080-exec-68] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/HospitalManagementSystem]
+23-Feb-2025 09:55:46.320 INFO [http-nio-8080-exec-72] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\conf\Catalina\localhost\HospitalManagementSystem.xml]
+23-Feb-2025 09:55:46.321 WARNING [http-nio-8080-exec-72] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/HospitalManagementSystem] in deployment descriptor [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\conf\Catalina\localhost\HospitalManagementSystem.xml] has been ignored
+23-Feb-2025 09:55:46.432 INFO [http-nio-8080-exec-72] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Feb-2025 09:55:46.436 INFO [http-nio-8080-exec-72] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\conf\Catalina\localhost\HospitalManagementSystem.xml] has finished in [116] ms
+23-Feb-2025 09:55:46.440 INFO [http-nio-8080-exec-69] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/HospitalManagementSystem]] after start() had already been called. The second call will be ignored.
+23-Feb-2025 10:54:41.746 INFO [http-nio-8080-exec-78] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/HospitalManagementSystem]
+23-Feb-2025 11:12:19.221 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context []
+23-Feb-2025 11:12:19.221 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+23-Feb-2025 11:12:19.265 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+23-Feb-2025 11:15:25.586 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.89
+23-Feb-2025 11:15:25.592 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 3 2024 20:22:11 UTC
+23-Feb-2025 11:15:25.592 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.89.0
+23-Feb-2025 11:15:25.592 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+23-Feb-2025 11:15:25.592 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+23-Feb-2025 11:15:25.592 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+23-Feb-2025 11:15:25.593 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-23
+23-Feb-2025 11:15:25.593 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           23.0.1+11-39
+23-Feb-2025 11:15:25.593 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+23-Feb-2025 11:15:25.593 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89
+23-Feb-2025 11:15:25.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89
+23-Feb-2025 11:15:25.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+23-Feb-2025 11:15:25.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+23-Feb-2025 11:15:25.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+23-Feb-2025 11:15:25.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+23-Feb-2025 11:15:25.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+23-Feb-2025 11:15:25.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\conf\logging.properties
+23-Feb-2025 11:15:25.611 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-Feb-2025 11:15:25.611 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+23-Feb-2025 11:15:25.611 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+23-Feb-2025 11:15:25.611 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+23-Feb-2025 11:15:25.612 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89
+23-Feb-2025 11:15:25.612 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89
+23-Feb-2025 11:15:25.612 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\temp
+23-Feb-2025 11:15:25.627 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-23\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk-23\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Java\jdk-13\bin;C:\Program Files\Java\jdk-23\bin;C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-ant-1.10.15-bin (2)\apache-ant-1.10.15\bin;C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-ant-1.10.15-bin (2)\apache-ant-1.10.15\bin;C:\Program Files\Java\jdk-23\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-23\bin;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Java\jdk-13\bin;C:\Program Files\Java\jdk-23\bin;C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-ant-1.10.15-bin (2)\apache-ant-1.10.15\bin;C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-ant-1.10.15-bin (2)\apache-ant-1.10.15\bin;C:\Program Files\Java\jdk-23\bin;C:\Users\roshi\AppData\Local\Microsoft\WindowsApps;C:\Users\roshi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\roshi\AppData\Roaming\npm;C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-ant-1.10.15-bin (2)\apache-ant-1.10.15\bin;C:\apache-ant-1.10.15\bin;;C:\apache-ant\bin;.]
+23-Feb-2025 11:15:26.215 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+23-Feb-2025 11:15:26.240 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector["http-nio-8080"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1012)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:525)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:990)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:686)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:709)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:302)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:472)
+	Caused by: java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:344)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:301)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:268)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:223)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1355)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1368)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:654)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:75)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1010)
+		... 11 more
+23-Feb-2025 11:15:26.242 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [976] milliseconds
+23-Feb-2025 11:15:26.320 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+23-Feb-2025 11:15:26.320 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.89]
+23-Feb-2025 11:15:26.336 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\docs]
+23-Feb-2025 11:15:26.842 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\docs] has finished in [505] ms
+23-Feb-2025 11:15:26.843 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\examples]
+23-Feb-2025 11:15:27.640 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\examples] has finished in [797] ms
+23-Feb-2025 11:15:27.640 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\host-manager]
+23-Feb-2025 11:15:27.711 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\host-manager] has finished in [71] ms
+23-Feb-2025 11:15:27.712 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\manager]
+23-Feb-2025 11:15:27.769 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\manager] has finished in [57] ms
+23-Feb-2025 11:15:27.769 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\ROOT]
+23-Feb-2025 11:15:27.809 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\ROOT] has finished in [40] ms
+23-Feb-2025 11:15:27.818 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1573] milliseconds
+23-Feb-2025 11:15:27.828 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.Net.bind(Net.java:554)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:636)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:389)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:276)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:541)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:825)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:773)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+23-Feb-2025 11:15:27.829 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+23-Feb-2025 11:15:27.829 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+23-Feb-2025 11:15:27.859 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+23-Feb-2025 11:15:27.861 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+23-Feb-2025 11:32:35.239 INFO [http-nio-8080-exec-96] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\HospitalManagementSystem.war]
+23-Feb-2025 11:32:35.846 INFO [http-nio-8080-exec-96] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Feb-2025 11:32:35.853 INFO [http-nio-8080-exec-96] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\HospitalManagementSystem.war] has finished in [614] ms
+23-Feb-2025 11:53:41.634 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+23-Feb-2025 11:53:41.636 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+23-Feb-2025 11:53:41.644 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+23-Feb-2025 11:53:41.677 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+23-Feb-2025 11:53:41.694 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+23-Feb-2025 11:53:54.674 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.89
+23-Feb-2025 11:53:54.681 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 3 2024 20:22:11 UTC
+23-Feb-2025 11:53:54.682 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.89.0
+23-Feb-2025 11:53:54.682 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+23-Feb-2025 11:53:54.682 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+23-Feb-2025 11:53:54.682 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+23-Feb-2025 11:53:54.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-23
+23-Feb-2025 11:53:54.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           23.0.1+11-39
+23-Feb-2025 11:53:54.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+23-Feb-2025 11:53:54.684 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89
+23-Feb-2025 11:53:54.684 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89
+23-Feb-2025 11:53:54.700 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+23-Feb-2025 11:53:54.701 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+23-Feb-2025 11:53:54.701 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+23-Feb-2025 11:53:54.701 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+23-Feb-2025 11:53:54.701 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+23-Feb-2025 11:53:54.702 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\conf\logging.properties
+23-Feb-2025 11:53:54.704 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-Feb-2025 11:53:54.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+23-Feb-2025 11:53:54.706 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+23-Feb-2025 11:53:54.707 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+23-Feb-2025 11:53:54.708 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89
+23-Feb-2025 11:53:54.709 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89
+23-Feb-2025 11:53:54.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\temp
+23-Feb-2025 11:53:54.727 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-23\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk-23\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Java\jdk-13\bin;C:\Program Files\Java\jdk-23\bin;C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-ant-1.10.15-bin (2)\apache-ant-1.10.15\bin;C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-ant-1.10.15-bin (2)\apache-ant-1.10.15\bin;C:\Program Files\Java\jdk-23\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Users\roshi\AppData\Local\Microsoft\WindowsApps;C:\Users\roshi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\roshi\AppData\Roaming\npm;C:\apache-ant-1.10.15\bin;C:\apache-ant\bin;.]
+23-Feb-2025 11:53:55.325 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+23-Feb-2025 11:53:55.372 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1017] milliseconds
+23-Feb-2025 11:53:55.451 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+23-Feb-2025 11:53:55.451 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.89]
+23-Feb-2025 11:53:55.499 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\HospitalManagementSystem.war]
+23-Feb-2025 11:53:56.044 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Feb-2025 11:53:56.143 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\HospitalManagementSystem.war] has finished in [643] ms
+23-Feb-2025 11:53:56.144 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\docs]
+23-Feb-2025 11:53:56.209 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\docs] has finished in [65] ms
+23-Feb-2025 11:53:56.210 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\examples]
+23-Feb-2025 11:53:56.853 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\examples] has finished in [643] ms
+23-Feb-2025 11:53:56.854 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\host-manager]
+23-Feb-2025 11:53:56.919 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\host-manager] has finished in [64] ms
+23-Feb-2025 11:53:56.919 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\manager]
+23-Feb-2025 11:53:56.988 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\manager] has finished in [68] ms
+23-Feb-2025 11:53:56.988 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\ROOT]
+23-Feb-2025 11:53:57.029 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\ROOT] has finished in [41] ms
+23-Feb-2025 11:53:57.035 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+23-Feb-2025 11:53:57.071 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1695] milliseconds
+23-Feb-2025 14:31:55.623 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.89
+23-Feb-2025 14:31:55.630 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 3 2024 20:22:11 UTC
+23-Feb-2025 14:31:55.630 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.89.0
+23-Feb-2025 14:31:55.631 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+23-Feb-2025 14:31:55.631 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+23-Feb-2025 14:31:55.631 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+23-Feb-2025 14:31:55.632 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-23
+23-Feb-2025 14:31:55.632 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           23.0.1+11-39
+23-Feb-2025 14:31:55.632 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+23-Feb-2025 14:31:55.633 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89
+23-Feb-2025 14:31:55.633 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89
+23-Feb-2025 14:31:55.657 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+23-Feb-2025 14:31:55.657 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+23-Feb-2025 14:31:55.658 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+23-Feb-2025 14:31:55.658 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+23-Feb-2025 14:31:55.659 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+23-Feb-2025 14:31:55.659 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\conf\logging.properties
+23-Feb-2025 14:31:55.660 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-Feb-2025 14:31:55.660 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+23-Feb-2025 14:31:55.660 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+23-Feb-2025 14:31:55.661 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+23-Feb-2025 14:31:55.661 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89
+23-Feb-2025 14:31:55.661 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89
+23-Feb-2025 14:31:55.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\temp
+23-Feb-2025 14:31:55.680 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-23\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk-23\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Java\jdk-13\bin;C:\Program Files\Java\jdk-23\bin;C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-ant-1.10.15-bin (2)\apache-ant-1.10.15\bin;C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-ant-1.10.15-bin (2)\apache-ant-1.10.15\bin;C:\Program Files\Java\jdk-23\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-23\bin;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Java\jdk-13\bin;C:\Program Files\Java\jdk-23\bin;C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-ant-1.10.15-bin (2)\apache-ant-1.10.15\bin;C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-ant-1.10.15-bin (2)\apache-ant-1.10.15\bin;C:\Program Files\Java\jdk-23\bin;C:\Users\roshi\AppData\Local\Microsoft\WindowsApps;C:\Users\roshi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\roshi\AppData\Roaming\npm;C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-ant-1.10.15-bin (2)\apache-ant-1.10.15\bin;C:\apache-ant-1.10.15\bin;;C:\apache-ant\bin;.]
+23-Feb-2025 14:31:56.313 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+23-Feb-2025 14:31:56.380 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1152] milliseconds
+23-Feb-2025 14:31:56.462 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+23-Feb-2025 14:31:56.463 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.89]
+23-Feb-2025 14:31:56.505 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\HospitalManagementSystem.war]
+23-Feb-2025 14:31:56.898 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Feb-2025 14:31:56.954 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\HospitalManagementSystem.war] has finished in [448] ms
+23-Feb-2025 14:31:56.956 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\docs]
+23-Feb-2025 14:31:57.002 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\docs] has finished in [47] ms
+23-Feb-2025 14:31:57.003 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\examples]
+23-Feb-2025 14:31:57.685 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\examples] has finished in [681] ms
+23-Feb-2025 14:31:57.686 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\host-manager]
+23-Feb-2025 14:31:57.759 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\host-manager] has finished in [72] ms
+23-Feb-2025 14:31:57.760 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\manager]
+23-Feb-2025 14:31:57.828 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\manager] has finished in [68] ms
+23-Feb-2025 14:31:57.829 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\ROOT]
+23-Feb-2025 14:31:57.873 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\ROOT] has finished in [44] ms
+23-Feb-2025 14:31:57.880 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+23-Feb-2025 14:31:57.922 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1538] milliseconds
+23-Feb-2025 15:50:33.140 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.89
+23-Feb-2025 15:50:33.148 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 3 2024 20:22:11 UTC
+23-Feb-2025 15:50:33.148 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.89.0
+23-Feb-2025 15:50:33.149 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+23-Feb-2025 15:50:33.149 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+23-Feb-2025 15:50:33.149 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+23-Feb-2025 15:50:33.150 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-23
+23-Feb-2025 15:50:33.151 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           23.0.1+11-39
+23-Feb-2025 15:50:33.151 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+23-Feb-2025 15:50:33.151 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89
+23-Feb-2025 15:50:33.151 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89
+23-Feb-2025 15:50:33.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+23-Feb-2025 15:50:33.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+23-Feb-2025 15:50:33.167 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+23-Feb-2025 15:50:33.167 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+23-Feb-2025 15:50:33.167 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+23-Feb-2025 15:50:33.167 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\conf\logging.properties
+23-Feb-2025 15:50:33.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-Feb-2025 15:50:33.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+23-Feb-2025 15:50:33.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+23-Feb-2025 15:50:33.169 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+23-Feb-2025 15:50:33.169 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89
+23-Feb-2025 15:50:33.169 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89
+23-Feb-2025 15:50:33.170 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\temp
+23-Feb-2025 15:50:33.191 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-23\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk-23\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Java\jdk-13\bin;C:\Program Files\Java\jdk-23\bin;C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-ant-1.10.15-bin (2)\apache-ant-1.10.15\bin;C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-ant-1.10.15-bin (2)\apache-ant-1.10.15\bin;C:\Program Files\Java\jdk-23\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-23\bin;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Java\jdk-13\bin;C:\Program Files\Java\jdk-23\bin;C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-ant-1.10.15-bin (2)\apache-ant-1.10.15\bin;C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-ant-1.10.15-bin (2)\apache-ant-1.10.15\bin;C:\Program Files\Java\jdk-23\bin;C:\Users\roshi\AppData\Local\Microsoft\WindowsApps;C:\Users\roshi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\roshi\AppData\Roaming\npm;C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-ant-1.10.15-bin (2)\apache-ant-1.10.15\bin;C:\apache-ant-1.10.15\bin;;C:\apache-ant\bin;.]
+23-Feb-2025 15:50:33.783 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+23-Feb-2025 15:50:33.822 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1014] milliseconds
+23-Feb-2025 15:50:33.894 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+23-Feb-2025 15:50:33.895 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.89]
+23-Feb-2025 15:50:33.939 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\HospitalManagementSystem.war]
+23-Feb-2025 15:50:34.604 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Feb-2025 15:50:34.692 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\HospitalManagementSystem.war] has finished in [752] ms
+23-Feb-2025 15:50:34.694 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\docs]
+23-Feb-2025 15:50:34.815 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\docs] has finished in [121] ms
+23-Feb-2025 15:50:34.815 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\examples]
+23-Feb-2025 15:50:35.562 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\examples] has finished in [747] ms
+23-Feb-2025 15:50:35.563 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\host-manager]
+23-Feb-2025 15:50:35.681 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\host-manager] has finished in [117] ms
+23-Feb-2025 15:50:35.681 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\manager]
+23-Feb-2025 15:50:35.800 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\manager] has finished in [118] ms
+23-Feb-2025 15:50:35.800 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\ROOT]
+23-Feb-2025 15:50:35.900 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\ROOT] has finished in [100] ms
+23-Feb-2025 15:50:35.908 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+23-Feb-2025 15:50:35.961 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2135] milliseconds
+23-Feb-2025 17:05:03.562 INFO [http-nio-8080-exec-4] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Feb-2025 17:05:05.341 INFO [http-nio-8080-exec-11] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Feb-2025 17:17:48.061 INFO [http-nio-8080-exec-19] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Feb-2025 17:18:47.979 INFO [http-nio-8080-exec-18] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Feb-2025 17:32:09.455 INFO [http-nio-8080-exec-33] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/HospitalManagementSystem]
+23-Feb-2025 17:33:11.489 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.89
+23-Feb-2025 17:33:11.496 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 3 2024 20:22:11 UTC
+23-Feb-2025 17:33:11.496 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.89.0
+23-Feb-2025 17:33:11.496 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+23-Feb-2025 17:33:11.497 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+23-Feb-2025 17:33:11.497 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+23-Feb-2025 17:33:11.497 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-23
+23-Feb-2025 17:33:11.498 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           23.0.1+11-39
+23-Feb-2025 17:33:11.498 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+23-Feb-2025 17:33:11.498 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89
+23-Feb-2025 17:33:11.499 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89
+23-Feb-2025 17:33:11.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+23-Feb-2025 17:33:11.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+23-Feb-2025 17:33:11.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+23-Feb-2025 17:33:11.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+23-Feb-2025 17:33:11.514 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+23-Feb-2025 17:33:11.514 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\conf\logging.properties
+23-Feb-2025 17:33:11.515 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-Feb-2025 17:33:11.515 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+23-Feb-2025 17:33:11.516 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+23-Feb-2025 17:33:11.516 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+23-Feb-2025 17:33:11.516 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89
+23-Feb-2025 17:33:11.517 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89
+23-Feb-2025 17:33:11.517 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\temp
+23-Feb-2025 17:33:11.531 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-23\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk-23\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Java\jdk-13\bin;C:\Program Files\Java\jdk-23\bin;C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-ant-1.10.15-bin (2)\apache-ant-1.10.15\bin;C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-ant-1.10.15-bin (2)\apache-ant-1.10.15\bin;C:\Program Files\Java\jdk-23\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-23\bin;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Java\jdk-13\bin;C:\Program Files\Java\jdk-23\bin;C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-ant-1.10.15-bin (2)\apache-ant-1.10.15\bin;C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-ant-1.10.15-bin (2)\apache-ant-1.10.15\bin;C:\Program Files\Java\jdk-23\bin;C:\Users\roshi\AppData\Local\Microsoft\WindowsApps;C:\Users\roshi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\roshi\AppData\Roaming\npm;C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-ant-1.10.15-bin (2)\apache-ant-1.10.15\bin;C:\apache-ant-1.10.15\bin;;C:\apache-ant\bin;.]
+23-Feb-2025 17:33:12.117 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+23-Feb-2025 17:33:12.153 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [990] milliseconds
+23-Feb-2025 17:33:12.229 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+23-Feb-2025 17:33:12.230 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.89]
+23-Feb-2025 17:33:12.250 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\docs]
+23-Feb-2025 17:33:12.806 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\docs] has finished in [555] ms
+23-Feb-2025 17:33:12.806 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\examples]
+23-Feb-2025 17:33:13.631 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\examples] has finished in [825] ms
+23-Feb-2025 17:33:13.632 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\host-manager]
+23-Feb-2025 17:33:13.758 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\host-manager] has finished in [127] ms
+23-Feb-2025 17:33:13.758 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\manager]
+23-Feb-2025 17:33:13.892 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\manager] has finished in [133] ms
+23-Feb-2025 17:33:13.892 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\ROOT]
+23-Feb-2025 17:33:14.006 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\ROOT] has finished in [114] ms
+23-Feb-2025 17:33:14.014 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+23-Feb-2025 17:33:14.049 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1894] milliseconds
+23-Feb-2025 17:33:56.574 INFO [http-nio-8080-exec-6] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\HospitalManagementSystem.war]
+23-Feb-2025 17:33:58.058 SEVERE [http-nio-8080-exec-6] org.apache.catalina.startup.HostConfig.deployWAR Error deploying web application archive [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\HospitalManagementSystem.war]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:602)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:603)
+		at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1014)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:535)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1658)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:264)
+		at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:803)
+		at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:802)
+		at org.apache.catalina.manager.ManagerServlet.check(ManagerServlet.java:1465)
+		at org.apache.catalina.manager.HTMLManagerServlet.upload(HTMLManagerServlet.java:250)
+		at org.apache.catalina.manager.HTMLManagerServlet.doPost(HTMLManagerServlet.java:177)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.filters.CsrfPreventionFilter.doFilter(CsrfPreventionFilter.java:428)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:129)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:596)
+		at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:355)
+		at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:54)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:388)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1575)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/HospitalManagementSystem]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		... 45 more
+	Caused by: java.lang.IllegalArgumentException: The servlets named [AdminLogin] and [Controller.AdminLogin] are both mapped to the url-pattern [/AdminLogin] which is not permitted
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMappingDecoded(WebXml.java:354)
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMapping(WebXml.java:347)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationWebServlet(ContextConfig.java:2547)
+		at org.apache.catalina.startup.ContextConfig.processClass(ContextConfig.java:2252)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:2241)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2151)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2146)
+		at org.apache.catalina.startup.ContextConfig.processClasses(ContextConfig.java:1351)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1261)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:961)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:290)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4354)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 46 more
+23-Feb-2025 17:33:58.064 INFO [http-nio-8080-exec-6] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\HospitalManagementSystem.war] has finished in [1,489] ms
+23-Feb-2025 18:21:30.552 INFO [http-nio-8080-exec-29] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/HospitalManagementSystem]
+23-Feb-2025 18:32:49.117 INFO [http-nio-8080-exec-38] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\conf\Catalina\localhost\HospitalManagementSystem.xml]
+23-Feb-2025 18:32:49.120 WARNING [http-nio-8080-exec-38] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/HospitalManagementSystem] in deployment descriptor [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\conf\Catalina\localhost\HospitalManagementSystem.xml] has been ignored
+23-Feb-2025 18:32:49.206 SEVERE [http-nio-8080-exec-38] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\conf\Catalina\localhost\HospitalManagementSystem.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:602)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:603)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:680)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:529)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1658)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:264)
+		at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:803)
+		at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:802)
+		at org.apache.catalina.manager.ManagerServlet.check(ManagerServlet.java:1465)
+		at org.apache.catalina.manager.ManagerServlet.deploy(ManagerServlet.java:938)
+		at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:313)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:129)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:596)
+		at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:355)
+		at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:54)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:388)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1575)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/HospitalManagementSystem]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		... 42 more
+	Caused by: java.lang.IllegalArgumentException: The servlets named [AdminLogin] and [Controller.AdminLogin] are both mapped to the url-pattern [/AdminLogin] which is not permitted
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMappingDecoded(WebXml.java:354)
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMapping(WebXml.java:347)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationWebServlet(ContextConfig.java:2547)
+		at org.apache.catalina.startup.ContextConfig.processClass(ContextConfig.java:2252)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:2241)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2151)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2146)
+		at org.apache.catalina.startup.ContextConfig.processClasses(ContextConfig.java:1351)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1261)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:961)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:290)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4354)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 43 more
+23-Feb-2025 18:32:49.210 INFO [http-nio-8080-exec-38] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\conf\Catalina\localhost\HospitalManagementSystem.xml] has finished in [92] ms
+23-Feb-2025 18:33:07.557 INFO [http-nio-8080-exec-38] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/HospitalManagementSystem]
+23-Feb-2025 18:34:31.311 INFO [http-nio-8080-exec-39] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\conf\Catalina\localhost\HospitalManagementSystem.xml]
+23-Feb-2025 18:34:31.312 WARNING [http-nio-8080-exec-39] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/HospitalManagementSystem] in deployment descriptor [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\conf\Catalina\localhost\HospitalManagementSystem.xml] has been ignored
+23-Feb-2025 18:34:31.376 SEVERE [http-nio-8080-exec-39] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\conf\Catalina\localhost\HospitalManagementSystem.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:602)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:603)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:680)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:529)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1658)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:264)
+		at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:803)
+		at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:802)
+		at org.apache.catalina.manager.ManagerServlet.check(ManagerServlet.java:1465)
+		at org.apache.catalina.manager.ManagerServlet.deploy(ManagerServlet.java:938)
+		at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:313)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:129)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:596)
+		at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:355)
+		at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:54)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:388)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1575)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/HospitalManagementSystem]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		... 42 more
+	Caused by: java.lang.IllegalArgumentException: The servlets named [AdminLogin] and [Controller.AdminLogin] are both mapped to the url-pattern [/AdminLogin] which is not permitted
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMappingDecoded(WebXml.java:354)
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMapping(WebXml.java:347)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationWebServlet(ContextConfig.java:2547)
+		at org.apache.catalina.startup.ContextConfig.processClass(ContextConfig.java:2252)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:2241)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2151)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2146)
+		at org.apache.catalina.startup.ContextConfig.processClasses(ContextConfig.java:1351)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1261)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:961)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:290)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4354)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 43 more
+23-Feb-2025 18:34:31.380 INFO [http-nio-8080-exec-39] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\conf\Catalina\localhost\HospitalManagementSystem.xml] has finished in [69] ms
+23-Feb-2025 19:13:42.395 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.89
+23-Feb-2025 19:13:42.401 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 3 2024 20:22:11 UTC
+23-Feb-2025 19:13:42.401 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.89.0
+23-Feb-2025 19:13:42.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+23-Feb-2025 19:13:42.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+23-Feb-2025 19:13:42.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+23-Feb-2025 19:13:42.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-23
+23-Feb-2025 19:13:42.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           23.0.1+11-39
+23-Feb-2025 19:13:42.403 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+23-Feb-2025 19:13:42.403 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89
+23-Feb-2025 19:13:42.403 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89
+23-Feb-2025 19:13:42.417 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+23-Feb-2025 19:13:42.417 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+23-Feb-2025 19:13:42.417 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+23-Feb-2025 19:13:42.417 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+23-Feb-2025 19:13:42.417 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+23-Feb-2025 19:13:42.417 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\conf\logging.properties
+23-Feb-2025 19:13:42.418 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-Feb-2025 19:13:42.418 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+23-Feb-2025 19:13:42.418 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+23-Feb-2025 19:13:42.418 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+23-Feb-2025 19:13:42.418 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89
+23-Feb-2025 19:13:42.418 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89
+23-Feb-2025 19:13:42.419 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\temp
+23-Feb-2025 19:13:42.434 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-23\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk-23\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Java\jdk-13\bin;C:\Program Files\Java\jdk-23\bin;C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-ant-1.10.15-bin (2)\apache-ant-1.10.15\bin;C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-ant-1.10.15-bin (2)\apache-ant-1.10.15\bin;C:\Program Files\Java\jdk-23\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-23\bin;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Java\jdk-13\bin;C:\Program Files\Java\jdk-23\bin;C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-ant-1.10.15-bin (2)\apache-ant-1.10.15\bin;C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-ant-1.10.15-bin (2)\apache-ant-1.10.15\bin;C:\Program Files\Java\jdk-23\bin;C:\Users\roshi\AppData\Local\Microsoft\WindowsApps;C:\Users\roshi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\roshi\AppData\Roaming\npm;C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-ant-1.10.15-bin (2)\apache-ant-1.10.15\bin;C:\apache-ant-1.10.15\bin;;C:\apache-ant\bin;.]
+23-Feb-2025 19:13:43.085 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+23-Feb-2025 19:13:43.123 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1092] milliseconds
+23-Feb-2025 19:13:43.207 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+23-Feb-2025 19:13:43.207 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.89]
+23-Feb-2025 19:13:43.221 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\conf\Catalina\localhost\HospitalManagementSystem.xml]
+23-Feb-2025 19:13:43.245 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/HospitalManagementSystem] in deployment descriptor [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\conf\Catalina\localhost\HospitalManagementSystem.xml] has been ignored
+23-Feb-2025 19:13:43.567 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\conf\Catalina\localhost\HospitalManagementSystem.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:602)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:603)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:680)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1844)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:124)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:575)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:466)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1584)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:312)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:345)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:776)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:721)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:148)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:211)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:415)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:878)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:735)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/HospitalManagementSystem]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		... 35 more
+	Caused by: java.lang.IllegalArgumentException: The servlets named [AdminLogin] and [Controller.AdminLogin] are both mapped to the url-pattern [/AdminLogin] which is not permitted
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMappingDecoded(WebXml.java:354)
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMapping(WebXml.java:347)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationWebServlet(ContextConfig.java:2547)
+		at org.apache.catalina.startup.ContextConfig.processClass(ContextConfig.java:2252)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:2241)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2151)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2146)
+		at org.apache.catalina.startup.ContextConfig.processClasses(ContextConfig.java:1351)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1261)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:961)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:290)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4354)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 36 more
+23-Feb-2025 19:13:43.599 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\conf\Catalina\localhost\HospitalManagementSystem.xml] has finished in [377] ms
+23-Feb-2025 19:13:43.601 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\docs]
+23-Feb-2025 19:13:44.122 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\docs] has finished in [522] ms
+23-Feb-2025 19:13:44.123 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\examples]
+23-Feb-2025 19:13:44.997 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\examples] has finished in [875] ms
+23-Feb-2025 19:13:44.998 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\host-manager]
+23-Feb-2025 19:13:45.148 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\host-manager] has finished in [151] ms
+23-Feb-2025 19:13:45.148 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\manager]
+23-Feb-2025 19:13:45.267 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\manager] has finished in [119] ms
+23-Feb-2025 19:13:45.268 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\ROOT]
+23-Feb-2025 19:13:45.363 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\ROOT] has finished in [94] ms
+23-Feb-2025 19:13:45.369 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+23-Feb-2025 19:13:45.408 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2282] milliseconds
+23-Feb-2025 19:13:49.837 INFO [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/HospitalManagementSystem]
+23-Feb-2025 19:13:49.860 INFO [http-nio-8080-exec-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\conf\Catalina\localhost\HospitalManagementSystem.xml]
+23-Feb-2025 19:13:49.862 WARNING [http-nio-8080-exec-2] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/HospitalManagementSystem] in deployment descriptor [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\conf\Catalina\localhost\HospitalManagementSystem.xml] has been ignored
+23-Feb-2025 19:13:49.947 SEVERE [http-nio-8080-exec-2] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\conf\Catalina\localhost\HospitalManagementSystem.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:602)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:603)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:680)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:529)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1658)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:264)
+		at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:803)
+		at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:802)
+		at org.apache.catalina.manager.ManagerServlet.check(ManagerServlet.java:1465)
+		at org.apache.catalina.manager.ManagerServlet.deploy(ManagerServlet.java:938)
+		at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:313)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:129)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:596)
+		at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:355)
+		at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:54)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:388)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1575)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/HospitalManagementSystem]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		... 42 more
+	Caused by: java.lang.IllegalArgumentException: The servlets named [AdminLogin] and [Controller.AdminLogin] are both mapped to the url-pattern [/AdminLogin] which is not permitted
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMappingDecoded(WebXml.java:354)
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMapping(WebXml.java:347)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationWebServlet(ContextConfig.java:2547)
+		at org.apache.catalina.startup.ContextConfig.processClass(ContextConfig.java:2252)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:2241)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2151)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2146)
+		at org.apache.catalina.startup.ContextConfig.processClasses(ContextConfig.java:1351)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1261)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:961)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:290)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4354)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 43 more
+23-Feb-2025 19:13:49.995 INFO [http-nio-8080-exec-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\conf\Catalina\localhost\HospitalManagementSystem.xml] has finished in [135] ms
+23-Feb-2025 19:23:51.853 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+23-Feb-2025 19:23:51.854 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+23-Feb-2025 19:23:51.859 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+23-Feb-2025 19:23:51.883 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+23-Feb-2025 19:23:51.894 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+23-Feb-2025 19:46:28.773 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.89
+23-Feb-2025 19:46:28.776 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 3 2024 20:22:11 UTC
+23-Feb-2025 19:46:28.776 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.89.0
+23-Feb-2025 19:46:28.776 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+23-Feb-2025 19:46:28.776 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+23-Feb-2025 19:46:28.778 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+23-Feb-2025 19:46:28.778 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-23
+23-Feb-2025 19:46:28.778 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           23.0.1+11-39
+23-Feb-2025 19:46:28.778 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+23-Feb-2025 19:46:28.778 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89
+23-Feb-2025 19:46:28.778 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89
+23-Feb-2025 19:46:28.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+23-Feb-2025 19:46:28.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+23-Feb-2025 19:46:28.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+23-Feb-2025 19:46:28.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+23-Feb-2025 19:46:28.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+23-Feb-2025 19:46:28.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\conf\logging.properties
+23-Feb-2025 19:46:28.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-Feb-2025 19:46:28.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+23-Feb-2025 19:46:28.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+23-Feb-2025 19:46:28.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+23-Feb-2025 19:46:28.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89
+23-Feb-2025 19:46:28.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89
+23-Feb-2025 19:46:28.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\temp
+23-Feb-2025 19:46:28.793 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-23\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk-23\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Java\jdk-13\bin;C:\Program Files\Java\jdk-23\bin;C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-ant-1.10.15-bin (2)\apache-ant-1.10.15\bin;C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-ant-1.10.15-bin (2)\apache-ant-1.10.15\bin;C:\Program Files\Java\jdk-23\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-23\bin;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Java\jdk-13\bin;C:\Program Files\Java\jdk-23\bin;C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-ant-1.10.15-bin (2)\apache-ant-1.10.15\bin;C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-ant-1.10.15-bin (2)\apache-ant-1.10.15\bin;C:\Program Files\Java\jdk-23\bin;C:\Users\roshi\AppData\Local\Microsoft\WindowsApps;C:\Users\roshi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\roshi\AppData\Roaming\npm;C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-ant-1.10.15-bin (2)\apache-ant-1.10.15\bin;C:\apache-ant-1.10.15\bin;;C:\apache-ant\bin;.]
+23-Feb-2025 19:46:29.096 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+23-Feb-2025 19:46:29.115 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [519] milliseconds
+23-Feb-2025 19:46:29.157 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+23-Feb-2025 19:46:29.157 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.89]
+23-Feb-2025 19:46:29.164 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\conf\Catalina\localhost\HospitalManagementSystem.xml]
+23-Feb-2025 19:46:29.175 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/HospitalManagementSystem] in deployment descriptor [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\conf\Catalina\localhost\HospitalManagementSystem.xml] has been ignored
+23-Feb-2025 19:46:29.323 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\conf\Catalina\localhost\HospitalManagementSystem.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:602)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:603)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:680)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1844)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:124)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:575)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:466)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1584)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:312)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:345)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:776)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:721)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:148)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:211)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:415)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:878)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:735)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/HospitalManagementSystem]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		... 35 more
+	Caused by: java.lang.IllegalArgumentException: The servlets named [AdminLogin] and [Controller.AdminLogin] are both mapped to the url-pattern [/AdminLogin] which is not permitted
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMappingDecoded(WebXml.java:354)
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMapping(WebXml.java:347)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationWebServlet(ContextConfig.java:2547)
+		at org.apache.catalina.startup.ContextConfig.processClass(ContextConfig.java:2252)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:2241)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2151)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2146)
+		at org.apache.catalina.startup.ContextConfig.processClasses(ContextConfig.java:1351)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1261)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:961)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:290)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4354)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 36 more
+23-Feb-2025 19:46:29.357 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\conf\Catalina\localhost\HospitalManagementSystem.xml] has finished in [192] ms
+23-Feb-2025 19:46:29.358 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\docs]
+23-Feb-2025 19:46:29.587 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\docs] has finished in [229] ms
+23-Feb-2025 19:46:29.587 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\examples]
+23-Feb-2025 19:46:29.934 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\examples] has finished in [347] ms
+23-Feb-2025 19:46:29.934 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\host-manager]
+23-Feb-2025 19:46:29.981 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\host-manager] has finished in [47] ms
+23-Feb-2025 19:46:29.981 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\manager]
+23-Feb-2025 19:46:30.029 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\manager] has finished in [48] ms
+23-Feb-2025 19:46:30.029 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\ROOT]
+23-Feb-2025 19:46:30.075 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\ROOT] has finished in [46] ms
+23-Feb-2025 19:46:30.075 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+23-Feb-2025 19:46:30.107 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [991] milliseconds
+23-Feb-2025 19:46:33.748 INFO [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/HospitalManagementSystem]
+23-Feb-2025 19:46:33.757 INFO [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\conf\Catalina\localhost\HospitalManagementSystem.xml]
+23-Feb-2025 19:46:33.759 WARNING [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/HospitalManagementSystem] in deployment descriptor [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\conf\Catalina\localhost\HospitalManagementSystem.xml] has been ignored
+23-Feb-2025 19:46:33.790 SEVERE [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\conf\Catalina\localhost\HospitalManagementSystem.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:602)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:603)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:680)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:529)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1658)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:264)
+		at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:803)
+		at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:802)
+		at org.apache.catalina.manager.ManagerServlet.check(ManagerServlet.java:1465)
+		at org.apache.catalina.manager.ManagerServlet.deploy(ManagerServlet.java:938)
+		at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:313)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:129)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:596)
+		at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:355)
+		at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:54)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:388)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1575)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/HospitalManagementSystem]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		... 42 more
+	Caused by: java.lang.IllegalArgumentException: The servlets named [AdminLogin] and [Controller.AdminLogin] are both mapped to the url-pattern [/AdminLogin] which is not permitted
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMappingDecoded(WebXml.java:354)
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMapping(WebXml.java:347)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationWebServlet(ContextConfig.java:2547)
+		at org.apache.catalina.startup.ContextConfig.processClass(ContextConfig.java:2252)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:2241)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2151)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2146)
+		at org.apache.catalina.startup.ContextConfig.processClasses(ContextConfig.java:1351)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1261)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:961)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:290)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4354)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 43 more
+23-Feb-2025 19:46:33.833 INFO [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\conf\Catalina\localhost\HospitalManagementSystem.xml] has finished in [76] ms
+23-Feb-2025 20:32:51.407 INFO [http-nio-8080-exec-21] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/HospitalManagementSystem]
+23-Feb-2025 20:32:51.424 INFO [http-nio-8080-exec-17] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\conf\Catalina\localhost\HospitalManagementSystem.xml]
+23-Feb-2025 20:32:51.427 WARNING [http-nio-8080-exec-17] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/HospitalManagementSystem] in deployment descriptor [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\conf\Catalina\localhost\HospitalManagementSystem.xml] has been ignored
+23-Feb-2025 20:32:51.505 SEVERE [http-nio-8080-exec-17] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\conf\Catalina\localhost\HospitalManagementSystem.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:602)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:603)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:680)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:529)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1658)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:264)
+		at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:803)
+		at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:802)
+		at org.apache.catalina.manager.ManagerServlet.check(ManagerServlet.java:1465)
+		at org.apache.catalina.manager.ManagerServlet.deploy(ManagerServlet.java:938)
+		at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:313)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:129)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:596)
+		at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:355)
+		at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:54)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:388)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1575)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/HospitalManagementSystem]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		... 42 more
+	Caused by: java.lang.IllegalArgumentException: The servlets named [AdminLogin] and [Controller.AdminLogin] are both mapped to the url-pattern [/AdminLogin] which is not permitted
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMappingDecoded(WebXml.java:354)
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMapping(WebXml.java:347)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationWebServlet(ContextConfig.java:2547)
+		at org.apache.catalina.startup.ContextConfig.processClass(ContextConfig.java:2252)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:2241)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2151)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2146)
+		at org.apache.catalina.startup.ContextConfig.processClasses(ContextConfig.java:1351)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1261)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:961)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:290)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4354)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 43 more
+23-Feb-2025 20:32:51.548 INFO [http-nio-8080-exec-17] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\conf\Catalina\localhost\HospitalManagementSystem.xml] has finished in [124] ms
+23-Feb-2025 20:34:04.255 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+23-Feb-2025 20:34:04.256 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+23-Feb-2025 20:34:04.261 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+23-Feb-2025 20:34:04.277 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+23-Feb-2025 20:34:04.290 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+23-Feb-2025 20:34:28.845 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.89
+23-Feb-2025 20:34:28.852 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 3 2024 20:22:11 UTC
+23-Feb-2025 20:34:28.853 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.89.0
+23-Feb-2025 20:34:28.853 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+23-Feb-2025 20:34:28.853 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+23-Feb-2025 20:34:28.853 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+23-Feb-2025 20:34:28.854 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-23
+23-Feb-2025 20:34:28.854 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           23.0.1+11-39
+23-Feb-2025 20:34:28.854 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+23-Feb-2025 20:34:28.854 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89
+23-Feb-2025 20:34:28.855 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89
+23-Feb-2025 20:34:28.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+23-Feb-2025 20:34:28.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+23-Feb-2025 20:34:28.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+23-Feb-2025 20:34:28.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+23-Feb-2025 20:34:28.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+23-Feb-2025 20:34:28.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\conf\logging.properties
+23-Feb-2025 20:34:28.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-Feb-2025 20:34:28.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+23-Feb-2025 20:34:28.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+23-Feb-2025 20:34:28.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+23-Feb-2025 20:34:28.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89
+23-Feb-2025 20:34:28.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89
+23-Feb-2025 20:34:28.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\temp
+23-Feb-2025 20:34:28.889 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-23\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk-23\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Java\jdk-13\bin;C:\Program Files\Java\jdk-23\bin;C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-ant-1.10.15-bin (2)\apache-ant-1.10.15\bin;C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-ant-1.10.15-bin (2)\apache-ant-1.10.15\bin;C:\Program Files\Java\jdk-23\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-23\bin;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Java\jdk-13\bin;C:\Program Files\Java\jdk-23\bin;C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-ant-1.10.15-bin (2)\apache-ant-1.10.15\bin;C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-ant-1.10.15-bin (2)\apache-ant-1.10.15\bin;C:\Program Files\Java\jdk-23\bin;C:\Users\roshi\AppData\Local\Microsoft\WindowsApps;C:\Users\roshi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\roshi\AppData\Roaming\npm;C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-ant-1.10.15-bin (2)\apache-ant-1.10.15\bin;C:\apache-ant-1.10.15\bin;;C:\apache-ant\bin;.]
+23-Feb-2025 20:34:29.528 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+23-Feb-2025 20:34:29.564 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1091] milliseconds
+23-Feb-2025 20:34:29.642 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+23-Feb-2025 20:34:29.642 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.89]
+23-Feb-2025 20:34:29.657 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\conf\Catalina\localhost\HospitalManagementSystem.xml]
+23-Feb-2025 20:34:29.681 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/HospitalManagementSystem] in deployment descriptor [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\conf\Catalina\localhost\HospitalManagementSystem.xml] has been ignored
+23-Feb-2025 20:34:29.965 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\conf\Catalina\localhost\HospitalManagementSystem.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:602)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:603)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:680)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1844)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:124)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:575)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:466)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1584)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:312)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:345)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:776)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:721)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:148)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:211)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:415)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:878)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:735)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/HospitalManagementSystem]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		... 35 more
+	Caused by: java.lang.IllegalArgumentException: The servlets named [AdminLogin] and [Controller.AdminLogin] are both mapped to the url-pattern [/AdminLogin] which is not permitted
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMappingDecoded(WebXml.java:354)
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMapping(WebXml.java:347)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationWebServlet(ContextConfig.java:2547)
+		at org.apache.catalina.startup.ContextConfig.processClass(ContextConfig.java:2252)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:2241)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2151)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2146)
+		at org.apache.catalina.startup.ContextConfig.processClasses(ContextConfig.java:1351)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1261)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:961)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:290)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4354)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 36 more
+23-Feb-2025 20:34:30.004 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\conf\Catalina\localhost\HospitalManagementSystem.xml] has finished in [346] ms
+23-Feb-2025 20:34:30.006 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\docs]
+23-Feb-2025 20:34:30.389 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\docs] has finished in [383] ms
+23-Feb-2025 20:34:30.390 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\examples]
+23-Feb-2025 20:34:31.112 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\examples] has finished in [721] ms
+23-Feb-2025 20:34:31.112 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\host-manager]
+23-Feb-2025 20:34:31.243 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\host-manager] has finished in [131] ms
+23-Feb-2025 20:34:31.243 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\manager]
+23-Feb-2025 20:34:31.363 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\manager] has finished in [120] ms
+23-Feb-2025 20:34:31.363 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\ROOT]
+23-Feb-2025 20:34:31.463 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\ROOT] has finished in [100] ms
+23-Feb-2025 20:34:31.469 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+23-Feb-2025 20:34:31.506 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1940] milliseconds
+23-Feb-2025 20:34:35.275 INFO [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/HospitalManagementSystem]
+23-Feb-2025 20:34:35.298 INFO [http-nio-8080-exec-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\conf\Catalina\localhost\HospitalManagementSystem.xml]
+23-Feb-2025 20:34:35.300 WARNING [http-nio-8080-exec-2] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/HospitalManagementSystem] in deployment descriptor [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\conf\Catalina\localhost\HospitalManagementSystem.xml] has been ignored
+23-Feb-2025 20:34:35.381 SEVERE [http-nio-8080-exec-2] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\conf\Catalina\localhost\HospitalManagementSystem.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:602)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:603)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:680)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:529)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1658)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:264)
+		at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:803)
+		at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:802)
+		at org.apache.catalina.manager.ManagerServlet.check(ManagerServlet.java:1465)
+		at org.apache.catalina.manager.ManagerServlet.deploy(ManagerServlet.java:938)
+		at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:313)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:129)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:596)
+		at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:355)
+		at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:54)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:388)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1575)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/HospitalManagementSystem]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		... 42 more
+	Caused by: java.lang.IllegalArgumentException: The servlets named [AdminLogin] and [Controller.AdminLogin] are both mapped to the url-pattern [/AdminLogin] which is not permitted
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMappingDecoded(WebXml.java:354)
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMapping(WebXml.java:347)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationWebServlet(ContextConfig.java:2547)
+		at org.apache.catalina.startup.ContextConfig.processClass(ContextConfig.java:2252)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:2241)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2151)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2146)
+		at org.apache.catalina.startup.ContextConfig.processClasses(ContextConfig.java:1351)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1261)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:961)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:290)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4354)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 43 more
+23-Feb-2025 20:34:35.384 INFO [http-nio-8080-exec-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\conf\Catalina\localhost\HospitalManagementSystem.xml] has finished in [86] ms
+23-Feb-2025 21:48:53.615 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.89
+23-Feb-2025 21:48:53.622 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 3 2024 20:22:11 UTC
+23-Feb-2025 21:48:53.622 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.89.0
+23-Feb-2025 21:48:53.622 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+23-Feb-2025 21:48:53.622 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+23-Feb-2025 21:48:53.622 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+23-Feb-2025 21:48:53.622 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-23
+23-Feb-2025 21:48:53.623 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           23.0.1+11-39
+23-Feb-2025 21:48:53.623 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+23-Feb-2025 21:48:53.623 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89
+23-Feb-2025 21:48:53.623 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89
+23-Feb-2025 21:48:53.637 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+23-Feb-2025 21:48:53.638 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+23-Feb-2025 21:48:53.638 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+23-Feb-2025 21:48:53.638 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+23-Feb-2025 21:48:53.638 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+23-Feb-2025 21:48:53.638 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\conf\logging.properties
+23-Feb-2025 21:48:53.638 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-Feb-2025 21:48:53.638 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+23-Feb-2025 21:48:53.638 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+23-Feb-2025 21:48:53.638 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+23-Feb-2025 21:48:53.638 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89
+23-Feb-2025 21:48:53.640 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89
+23-Feb-2025 21:48:53.640 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\temp
+23-Feb-2025 21:48:53.657 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-23\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk-23\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Java\jdk-13\bin;C:\Program Files\Java\jdk-23\bin;C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-ant-1.10.15-bin (2)\apache-ant-1.10.15\bin;C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-ant-1.10.15-bin (2)\apache-ant-1.10.15\bin;C:\Program Files\Java\jdk-23\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-23\bin;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Java\jdk-13\bin;C:\Program Files\Java\jdk-23\bin;C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-ant-1.10.15-bin (2)\apache-ant-1.10.15\bin;C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-ant-1.10.15-bin (2)\apache-ant-1.10.15\bin;C:\Program Files\Java\jdk-23\bin;C:\Users\roshi\AppData\Local\Microsoft\WindowsApps;C:\Users\roshi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\roshi\AppData\Roaming\npm;C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-ant-1.10.15-bin (2)\apache-ant-1.10.15\bin;C:\apache-ant-1.10.15\bin;;C:\apache-ant\bin;.]
+23-Feb-2025 21:48:54.317 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+23-Feb-2025 21:48:54.353 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1065] milliseconds
+23-Feb-2025 21:48:54.433 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+23-Feb-2025 21:48:54.434 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.89]
+23-Feb-2025 21:48:54.451 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\conf\Catalina\localhost\HospitalManagementSystem.xml]
+23-Feb-2025 21:48:54.476 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/HospitalManagementSystem] in deployment descriptor [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\conf\Catalina\localhost\HospitalManagementSystem.xml] has been ignored
+23-Feb-2025 21:48:54.790 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\conf\Catalina\localhost\HospitalManagementSystem.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:602)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:603)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:680)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1844)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:124)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:575)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:466)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1584)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:312)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:345)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:776)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:721)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:148)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:211)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:415)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:878)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:735)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/HospitalManagementSystem]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		... 35 more
+	Caused by: java.lang.IllegalArgumentException: The servlets named [AdminLogin] and [Controller.AdminLogin] are both mapped to the url-pattern [/AdminLogin] which is not permitted
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMappingDecoded(WebXml.java:354)
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMapping(WebXml.java:347)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationWebServlet(ContextConfig.java:2547)
+		at org.apache.catalina.startup.ContextConfig.processClass(ContextConfig.java:2252)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:2241)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2151)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2146)
+		at org.apache.catalina.startup.ContextConfig.processClasses(ContextConfig.java:1351)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1261)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:961)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:290)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4354)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 36 more
+23-Feb-2025 21:48:54.821 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\conf\Catalina\localhost\HospitalManagementSystem.xml] has finished in [370] ms
+23-Feb-2025 21:48:54.821 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\docs]
+23-Feb-2025 21:48:55.332 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\docs] has finished in [511] ms
+23-Feb-2025 21:48:55.333 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\examples]
+23-Feb-2025 21:48:56.209 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\examples] has finished in [875] ms
+23-Feb-2025 21:48:56.209 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\host-manager]
+23-Feb-2025 21:48:56.330 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\host-manager] has finished in [119] ms
+23-Feb-2025 21:48:56.330 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\manager]
+23-Feb-2025 21:48:56.448 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\manager] has finished in [118] ms
+23-Feb-2025 21:48:56.448 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\ROOT]
+23-Feb-2025 21:48:56.544 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\ROOT] has finished in [96] ms
+23-Feb-2025 21:48:56.551 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+23-Feb-2025 21:48:56.594 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2238] milliseconds
+23-Feb-2025 21:49:02.672 INFO [http-nio-8080-exec-10] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/HospitalManagementSystem]
+23-Feb-2025 21:49:02.705 INFO [http-nio-8080-exec-8] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\conf\Catalina\localhost\HospitalManagementSystem.xml]
+23-Feb-2025 21:49:02.708 WARNING [http-nio-8080-exec-8] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/HospitalManagementSystem] in deployment descriptor [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\conf\Catalina\localhost\HospitalManagementSystem.xml] has been ignored
+23-Feb-2025 21:49:02.790 SEVERE [http-nio-8080-exec-8] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\conf\Catalina\localhost\HospitalManagementSystem.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:602)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:603)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:680)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:529)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1658)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:264)
+		at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:803)
+		at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:802)
+		at org.apache.catalina.manager.ManagerServlet.check(ManagerServlet.java:1465)
+		at org.apache.catalina.manager.ManagerServlet.deploy(ManagerServlet.java:938)
+		at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:313)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:129)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:596)
+		at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:355)
+		at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:54)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:388)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1575)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/HospitalManagementSystem]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		... 42 more
+	Caused by: java.lang.IllegalArgumentException: The servlets named [AdminLogin] and [Controller.AdminLogin] are both mapped to the url-pattern [/AdminLogin] which is not permitted
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMappingDecoded(WebXml.java:354)
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMapping(WebXml.java:347)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationWebServlet(ContextConfig.java:2547)
+		at org.apache.catalina.startup.ContextConfig.processClass(ContextConfig.java:2252)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:2241)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2151)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2146)
+		at org.apache.catalina.startup.ContextConfig.processClasses(ContextConfig.java:1351)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1261)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:961)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:290)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4354)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 43 more
+23-Feb-2025 21:49:02.807 INFO [http-nio-8080-exec-8] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\conf\Catalina\localhost\HospitalManagementSystem.xml] has finished in [102] ms
+23-Feb-2025 21:53:06.953 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/HospitalManagementSystem]
+23-Feb-2025 21:53:07.100 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Feb-2025 21:53:36.582 INFO [http-nio-8080-exec-12] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/HospitalManagementSystem]
+23-Feb-2025 21:55:46.122 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.89
+23-Feb-2025 21:55:46.129 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 3 2024 20:22:11 UTC
+23-Feb-2025 21:55:46.130 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.89.0
+23-Feb-2025 21:55:46.130 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+23-Feb-2025 21:55:46.130 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+23-Feb-2025 21:55:46.130 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+23-Feb-2025 21:55:46.131 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-23
+23-Feb-2025 21:55:46.131 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           23.0.1+11-39
+23-Feb-2025 21:55:46.131 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+23-Feb-2025 21:55:46.132 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89
+23-Feb-2025 21:55:46.132 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89
+23-Feb-2025 21:55:46.145 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+23-Feb-2025 21:55:46.146 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+23-Feb-2025 21:55:46.146 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+23-Feb-2025 21:55:46.146 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+23-Feb-2025 21:55:46.158 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+23-Feb-2025 21:55:46.158 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\conf\logging.properties
+23-Feb-2025 21:55:46.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-Feb-2025 21:55:46.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+23-Feb-2025 21:55:46.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+23-Feb-2025 21:55:46.160 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+23-Feb-2025 21:55:46.160 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89
+23-Feb-2025 21:55:46.160 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89
+23-Feb-2025 21:55:46.161 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\temp
+23-Feb-2025 21:55:46.178 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-23\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk-23\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Java\jdk-13\bin;C:\Program Files\Java\jdk-23\bin;C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-ant-1.10.15-bin (2)\apache-ant-1.10.15\bin;C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-ant-1.10.15-bin (2)\apache-ant-1.10.15\bin;C:\Program Files\Java\jdk-23\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-23\bin;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Java\jdk-13\bin;C:\Program Files\Java\jdk-23\bin;C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-ant-1.10.15-bin (2)\apache-ant-1.10.15\bin;C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-ant-1.10.15-bin (2)\apache-ant-1.10.15\bin;C:\Program Files\Java\jdk-23\bin;C:\Users\roshi\AppData\Local\Microsoft\WindowsApps;C:\Users\roshi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\roshi\AppData\Roaming\npm;C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-ant-1.10.15-bin (2)\apache-ant-1.10.15\bin;C:\apache-ant-1.10.15\bin;;C:\apache-ant\bin;.]
+23-Feb-2025 21:55:46.737 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+23-Feb-2025 21:55:46.764 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector["http-nio-8080"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1012)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:525)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:990)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:686)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:709)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:302)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:472)
+	Caused by: java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:344)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:301)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:268)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:223)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1355)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1368)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:654)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:75)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1010)
+		... 11 more
+23-Feb-2025 21:55:46.777 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [981] milliseconds
+23-Feb-2025 21:55:46.849 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+23-Feb-2025 21:55:46.850 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.89]
+23-Feb-2025 21:55:46.864 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\docs]
+23-Feb-2025 21:55:47.441 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\docs] has finished in [576] ms
+23-Feb-2025 21:55:47.442 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\examples]
+23-Feb-2025 21:55:48.180 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\examples] has finished in [737] ms
+23-Feb-2025 21:55:48.181 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\host-manager]
+23-Feb-2025 21:55:48.303 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\host-manager] has finished in [123] ms
+23-Feb-2025 21:55:48.304 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\manager]
+23-Feb-2025 21:55:48.513 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\manager] has finished in [209] ms
+23-Feb-2025 21:55:48.514 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\ROOT]
+23-Feb-2025 21:55:48.622 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\ROOT] has finished in [109] ms
+23-Feb-2025 21:55:48.629 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1849] milliseconds
+23-Feb-2025 21:55:48.639 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.Net.bind(Net.java:554)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:636)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:389)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:276)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:541)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:825)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:773)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+23-Feb-2025 21:55:48.640 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+23-Feb-2025 21:55:48.640 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+23-Feb-2025 21:55:48.670 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+23-Feb-2025 21:55:48.671 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+23-Feb-2025 21:56:15.851 INFO [http-nio-8080-exec-19] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\HospitalManagementSystem.war]
+23-Feb-2025 21:56:16.574 INFO [http-nio-8080-exec-19] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Feb-2025 21:56:16.581 INFO [http-nio-8080-exec-19] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-tomcat-9.0.89\webapps\HospitalManagementSystem.war] has finished in [729] ms

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tomcat-users xmlns="http://tomcat.apache.org/xml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" xsi:schemaLocation="http://tomcat.apache.org/xml tomcat-users.xsd">
+    <!-- Required Roles for Tomcat Manager -->
+    <role rolename="manager-gui"/>
+    <role rolename="manager-script"/>
+    <role rolename="manager-jmx"/>
+    <role rolename="manager-status"/>
+    <!-- Admin user with all required roles -->
+    <user password="Vasu@1248" roles="manager-gui,manager-script,admin,manager-jmx,manager-status" username="Hospital_Server"/>
+</tomcat-users>

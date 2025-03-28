@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="HospitalManagementSystem" default="default" basedir=".">
+    <description>Builds, tests, and runs the project HospitalManagementSystem.</description>
+	<property name="libs.CopyLibs.classpath" value="C:/Program Files/NetBeans-24/java/ant/extra/org-netbeans-modules-java-j2seproject-copylibstask.jar"/>
+
+    <!-- Import NetBeans default build implementation -->
+    <import file="nbproject/build-impl.xml"/>
+
+    <!-- Define J2EE Server Home -->
+    <property name="j2ee.server.home" value="C:/LIFELINE-MEDICAL ASSISTANT PROJECT/apache-tomcat-9.0.89"/>
+
+    <!-- Ant-Contrib Task Definitions -->
+    <taskdef resource="net/sf/antcontrib/antlib.xml">
+        <classpath>
+            <pathelement location="C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-ant-1.10.15-bin (2)\apache-ant-1.10.15\lib\ant-contrib-1.0b2-bin\ant-contrib\lib\ant-contrib.jar"/>
+        </classpath>
+    </taskdef>
+
+    <path id="ant.contrib.classpath">
+        <pathelement location="C:\LIFELINE-MEDICAL ASSISTANT PROJECT\apache-ant-1.10.15-bin (2)\apache-ant-1.10.15\lib\ant-contrib-1.0b2-bin\ant-contrib\lib\ant-contrib.jar"/>
+    </path>
+
+
+    <taskdef resource="net/sf/antcontrib/antlib.xml" classpathref="ant.contrib.classpath"/>
+	
+	<property name="libs.CopyLibs.classpath" value="C:/Program Files/NetBeans-24/java/ant/extra/org-netbeans-modules-java-j2seproject-copylibstask.jar"/>
+
+
+
+    <!-- Proper Copy Task (Replacing copyfiles issue) -->
+    <target name="copy-files">
+        <copy todir="C:/LIFELINE-MEDICAL ASSISTANT PROJECT/bin">
+            <fileset dir="C:/LIFELINE-MEDICAL ASSISTANT PROJECT/src">
+                <include name="**/*"/>
+            </fileset>
+        </copy>
+    </target>
+   
+
+</project>
